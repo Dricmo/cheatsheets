@@ -63,7 +63,7 @@ $ nestat -at
 $ netstat -ntlp | grep LISTEN
 
 # Display name server information for domain by querying DNS.
-$ nslookup karloespiritu.com
+$ nslookup karlespiritu.com
 ```
 
 ## Process Management

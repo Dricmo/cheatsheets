@@ -12,7 +12,7 @@ Edit `/etc/nginx/conf.d/default.conf`
 
 server {
     listen 80;
-    server_name karloespiritu.com;
+    server_name karlespiritu.com;
     root /var/www/ghost;
 
     location / {

@@ -7,13 +7,13 @@ permalink: /curl/
 ## Verbose Output (-v)
 
 ```bash
-curl  -v http://karloespiritu.com
+curl  -v http://karlespiritu.com
 ```
 
 ## Get Request
 
 ```bash
-curl -kv "https://karloespiritu.com/?foo=bar&memento=mori"
+curl -kv "https://karlespiritu.com/?foo=bar&memento=mori"
 ```
 
 ## POST or PUT Request
