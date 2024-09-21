@@ -9,10 +9,29 @@ I'll be constantly updating this list as I learn new stuff.
 
 To view this site locally, just download the [cheatsheets](https://github.com/karloespiritu/CheatSheets) GitHub repo and run it locally.
 
+Download the zip file or clone the [cheatsheets](https://github.com/karloespiritu/CheatSheets) GitHub repo. Then, open your terminal and navigate to the directory using the `cd` command.”
+
 ```bash
-~ gem install jekyll
-~ git clone git@github.com:karloespiritu/cheatsheets.git
-~ cd cheatsheets
+$ git clone git@github.com:karloespiritu/cheatsheets.git cheetsheets
+$ cd mysite
+```
+
+Make sure you have Ruby 3.3.5 or higher installed.
+```bash
+$ ruby --version
+ruby 3.3.5
+```
+
+Install bundler and jekyll.
+
+```bash
+$ gem install bundler
+$ gem install jekyll
+```
+
+Build and run your Cheetsheets site.
+```bash
+~ bundle install
 ~ jekyll serve
 # => Now browse to http://localhost:4000
 ```
